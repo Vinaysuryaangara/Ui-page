@@ -1,0 +1,99 @@
+table, th, td {
+    border:1px solid black;
+}
+body{
+  margin: 0;
+  background-color: #d3808f;
+}
+
+.detail-row {
+  margin: 35px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+        border: 14px solid orchid;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  table{
+   text-align: center;
+   color: #141414;
+
+    width: 50%;
+    margin: auto;
+  }
+  .btn{
+    
+    margin-left: 47%;
+    border-radius: 24px;
+    margin-top: 86px;
+    padding: 14px;
+    margin-bottom: 79px;
+  }
+  .inputtxt{
+    text-align: center;
+     
+  }
+  .data{
+      border-radius: 9px;
+    /* margin-left: 84%; */
+    height: 29px;
+    float: right;
+    margin-top: 47px
+}
+  }
+  .modal-content h3{
+    text-align: center;
+
+  }
+  .personalbody{
+       /* border: 2px solid black;*/
+    width: 50%;
+    margin: auto;
+    /* z-index: -1; */
+    background-color: white;
+  
+}
+  .detail-row img{
+    width: 35%;
+  }
+  .center{
+    text-align: center;
+  }
+  .color i{
+    color: #044e04 
+  }
+.headforinp{
+  text-align: center;
+  
+}

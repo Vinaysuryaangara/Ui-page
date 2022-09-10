@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>    
+    <script async src="script.js"></script>
+    <title>User Management</title>
+</head>
+<body>
+    <button class="btn" onclick="toggleModal()"><i class="fa-solid fa-user-plus"></i><h3>Toogle List</h3></button>
+   
+    <div class="display">
+        
+    </div>
+    <div id="add-user-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="toggleModal()">&times;</span>
+            <h1 id="modal-heading" class="headforinp"></h1>
+            <div id="add-user-form-body" class="inputtxt">
+                <div class="detail-row">
+                    <div>
+                        <label>Name: </label>
+                        <input type="text" id="name">
+                    </div>
+                </div>
+                <div class="detail-row">
+                    <div>
+                        <label>Age: </label>
+                        <input type="text" id="age">
+                    </div>
+                </div>
+                <div class="detail-row">
+                    <div>
+                        <label>Place: </label>
+                        <input type="text" id="place">
+                    </div>
+                </div>
+            </div>
+            <div id="modal-btn" class="color"></div>
+        </div>
+    </div>
+    <div id="disply">
+        <table >
+            <tr>
+                <th>User ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Place</th>
+                <th>Actions</th>
+            </tr>
+            <tbody id="table-body" class="btnclr">
+                <tr>
+                    <td colspan="5" >
+                        <div style="display: flex; justify-content: space-around;"> No Users</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="personalbody" id="blocking">
+        <div id="details-body"></div>
+    </div>
+</body>
+</html>
